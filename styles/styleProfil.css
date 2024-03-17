@@ -1,0 +1,66 @@
+.sectionProfil {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.profil {
+    max-width: 800px;
+    background-color: blue;
+    display: flex;
+}
+
+.pp {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.publication {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin: 0 auto;
+    gap: 3px;
+    width: 600px;
+}
+
+.carrePubli {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.carrePubli:hover .like {
+    opacity: 1;
+}
+
+.carrePubli img {
+    max-height: 200px;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.like {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.15s;
+    border-radius: 50%;
+    border: none;
+    background-color: #C23333;
+    width: 35px;
+    height: 35px;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 900;
+}
+
+

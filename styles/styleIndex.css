@@ -1,0 +1,43 @@
+.tableauMemes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.meme {
+    width: 400px;
+    border: 1px solid black;
+}
+
+.utilisateur {
+    padding: 8px;
+    height: 50px;
+}
+
+.imagePP {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.pseudo {
+    position: absolute;
+    transform: translateY(50%);
+    padding-left: 10px;
+}
+
+.image {
+    width: 100%;
+}
+
+.likesDescription {
+    display: flex;
+    flex-direction: column;
+}
+
+.btnVoirplus {
+    color: rgba(93, 93, 93, 0.6);
+    text-decoration: none;
+}
