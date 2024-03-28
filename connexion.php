@@ -6,7 +6,7 @@ require_once 'db.php';
 echo pageHeader("Connexion");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
+    
     if (!empty($_POST['fpseudo']) == true && !empty($_POST['fpassword']) == true) {
 
         $pseudo = htmlspecialchars($_POST['fpseudo']);
